@@ -1,0 +1,5 @@
+D:\ICLab\IPA\App\obj\Debug\net7.0-windows\App.csproj.AssemblyReference.cache
+D:\ICLab\IPA\App\obj\Debug\net7.0-windows\App.GeneratedMSBuildEditorConfig.editorconfig
+D:\ICLab\IPA\App\obj\Debug\net7.0-windows\App.AssemblyInfoInputs.cache
+D:\ICLab\IPA\App\obj\Debug\net7.0-windows\App.AssemblyInfo.cs
+D:\ICLab\IPA\App\obj\Debug\net7.0-windows\App.csproj.CoreCompileInputs.cache
