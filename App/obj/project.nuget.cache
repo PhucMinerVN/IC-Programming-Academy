@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "01M4nAWZKm+BiCi0cDZNh9xQ/Qw3TyhaD4Q5uuobQmvPi60XBntwa6+KyzUR+PLrtsm3kh9DRBei0TY/IPiEXQ==",
+  "success": true,
+  "projectFilePath": "D:\\ICLab\\IPA\\Winform\\App\\App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\QUAN\\.nuget\\packages\\apitron.pdf.controls\\1.0.173\\apitron.pdf.controls.1.0.173.nupkg.sha512",
+    "C:\\Users\\QUAN\\.nuget\\packages\\pdfiumviewer\\2.13.0\\pdfiumviewer.2.13.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Apitron.PDF.Controls 1.0.173' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Apitron.PDF.Controls",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PdfiumViewer 2.13.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PdfiumViewer",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}
