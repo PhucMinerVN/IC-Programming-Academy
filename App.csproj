@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="PayPalCoreSDK" Version="1.7.1" />
+    <PackageReference Include="XtremeDocumentStudio.NETFree" Version="19.1.1" />
   </ItemGroup>
 
 </Project>

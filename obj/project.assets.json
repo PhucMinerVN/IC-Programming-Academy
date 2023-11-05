@@ -26,6 +26,27 @@
         "runtime": {
           "lib/net451/PayPalCoreSDK.dll": {}
         }
+      },
+      "XtremeDocumentStudio.NETFree/19.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Gnostice.Core.dll": {},
+          "lib/net40/Gnostice.Free.Documents.Controls.WinForms.dll": {},
+          "lib/net40/Gnostice.Free.Documents.dll": {},
+          "lib/net40/Gnostice.XtremeFontEngine.4.0.dll": {},
+          "lib/net40/Gnostice.XtremeImageEngine.dll": {},
+          "lib/net40/Ionic.Zip.Reduced.dll": {},
+          "lib/net40/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Gnostice.Core.dll": {},
+          "lib/net40/Gnostice.Free.Documents.Controls.WinForms.dll": {},
+          "lib/net40/Gnostice.Free.Documents.dll": {},
+          "lib/net40/Gnostice.XtremeFontEngine.4.0.dll": {},
+          "lib/net40/Gnostice.XtremeImageEngine.dll": {},
+          "lib/net40/Ionic.Zip.Reduced.dll": {},
+          "lib/net40/log4net.dll": {}
+        }
       }
     }
   },
@@ -70,11 +91,30 @@
         "paypalcoresdk.1.7.1.nupkg.sha512",
         "paypalcoresdk.nuspec"
       ]
+    },
+    "XtremeDocumentStudio.NETFree/19.1.1": {
+      "sha512": "V6qpZKHqNwM/Gi2rgzfrXiOxVI/Boyk1ReXMNRyJbpYtA3eiLYdvj5KYf5OJDHeYdPtR48th1F0IRFq4lBSHLA==",
+      "type": "package",
+      "path": "xtremedocumentstudio.netfree/19.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Gnostice.Core.dll",
+        "lib/net40/Gnostice.Free.Documents.Controls.WinForms.dll",
+        "lib/net40/Gnostice.Free.Documents.dll",
+        "lib/net40/Gnostice.XtremeFontEngine.4.0.dll",
+        "lib/net40/Gnostice.XtremeImageEngine.dll",
+        "lib/net40/Ionic.Zip.Reduced.dll",
+        "lib/net40/log4net.dll",
+        "xtremedocumentstudio.netfree.19.1.1.nupkg.sha512",
+        "xtremedocumentstudio.netfree.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "PayPalCoreSDK >= 1.7.1"
+      "PayPalCoreSDK >= 1.7.1",
+      "XtremeDocumentStudio.NETFree >= 19.1.1"
     ]
   },
   "packageFolders": {
@@ -125,6 +165,10 @@
           "PayPalCoreSDK": {
             "target": "Package",
             "version": "[1.7.1, )"
+          },
+          "XtremeDocumentStudio.NETFree": {
+            "target": "Package",
+            "version": "[19.1.1, )"
           }
         },
         "imports": [
@@ -146,7 +190,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -167,6 +211,16 @@
       "warningLevel": 1,
       "message": "Package 'PayPalCoreSDK 1.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "PayPalCoreSDK",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'XtremeDocumentStudio.NETFree 19.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "XtremeDocumentStudio.NETFree",
       "targetGraphs": [
         "net7.0-windows7.0"
       ]
