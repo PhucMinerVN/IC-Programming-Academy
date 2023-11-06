@@ -81,7 +81,7 @@ namespace App
             // pdfViewer1
             // 
             resources.ApplyResources(pdfViewer1, "pdfViewer1");
-            FileStream fs = new FileStream("D:\\ICLab\\IPA\\Python.pdf", FileMode.Open);
+            FileStream fs = new FileStream("Documents/Python.pdf", FileMode.Open);
             pdfViewer1.Document = new Apitron.PDF.Rasterizer.Document(fs);
             pdfViewer1.EnableSearch = true;
             pdfViewer1.Name = "pdfViewer1";
