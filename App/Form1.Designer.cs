@@ -1,5 +1,7 @@
 ﻿using System.Windows.Forms;
 using System.IO;
+using System.DirectoryServices;
+using Apitron.PDF.Rasterizer.Search;
 
 namespace App
 {
