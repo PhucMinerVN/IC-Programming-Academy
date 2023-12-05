@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 using System.IO;
 using System.DirectoryServices;
-using Apitron.PDF.Rasterizer.Search;
+using Apitron.PDF.Rasterizer;
 
 namespace App
 {
@@ -74,7 +74,11 @@ namespace App
             // pdfViewer1
             // 
             resources.ApplyResources(pdfViewer1, "pdfViewer1");
-            pdfViewer1.Document = null;
+            FileStream fs = new FileStream("Documents/Python.pdf", FileMode.Open);
+            Document document = new Document(fs);
+            pdfViewer1.Dock = DockStyle.Bottom;
+            pdfViewer1.Anchor = AnchorStyles.Right;
+            pdfViewer1.Document = document;
             pdfViewer1.EnableSearch = true;
             pdfViewer1.Name = "pdfViewer1";
             pdfViewer1.RenderingQuality = Apitron.PDF.Controls.RenderingQuality.High;
@@ -90,9 +94,9 @@ namespace App
             Controls.Add(pdfViewer1);
             Name = "Form1";
             WindowState = FormWindowState.Maximized;
+            Load += Form1_Load;
             flowLayoutPanel2.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
