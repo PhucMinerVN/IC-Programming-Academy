@@ -77,7 +77,7 @@ namespace App
             FileStream fs = new FileStream("Documents/Python.pdf", FileMode.Open);
             Document document = new Document(fs);
             pdfViewer1.Dock = DockStyle.Bottom;
-            pdfViewer1.Anchor = AnchorStyles.Right;
+            pdfViewer1.Anchor = AnchorStyles.Right|AnchorStyles.Left|AnchorStyles.Top|AnchorStyles.Bottom;
             pdfViewer1.Document = document;
             pdfViewer1.EnableSearch = true;
             pdfViewer1.Name = "pdfViewer1";

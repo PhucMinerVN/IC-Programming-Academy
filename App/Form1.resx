@@ -128,8 +128,12 @@
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 1033</value>
+    <value>169, 775</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
@@ -151,10 +155,13 @@
     <value>Segoe UI, 20pt, style=Bold</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 64</value>
+    <value>241, 48</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -181,10 +188,13 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 3</value>
+    <value>250, 2</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 64</value>
+    <value>241, 48</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -208,10 +218,13 @@
     <value>Top</value>
   </data>
   <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 0</value>
+    <value>169, 0</value>
+  </data>
+  <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1709, 101</value>
+    <value>1495, 76</value>
   </data>
   <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -229,16 +242,19 @@
     <value>0</value>
   </data>
   <data name="pdfViewer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
+    <value>Left, Right</value>
   </data>
   <data name="pdfViewer1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="pdfViewer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 128</value>
+    <value>169, 80</value>
+  </data>
+  <data name="pdfViewer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="pdfViewer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1709, 905</value>
+    <value>1495, 679</value>
   </data>
   <data name="pdfViewer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -259,10 +275,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1902, 1033</value>
+    <value>1664, 775</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>IPA - Alpha</value>
