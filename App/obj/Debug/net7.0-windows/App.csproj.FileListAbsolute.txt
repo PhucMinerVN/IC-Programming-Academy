@@ -21,3 +21,4 @@ D:\ICLab\IPA\Winform\App\obj\Debug\net7.0-windows\App.csproj.AssemblyReference.c
 D:\ICLab\IPA\Winform\App\obj\Debug\net7.0-windows\App.csproj.CopyComplete
 D:\ICLab\IPA\Winform\App\bin\Debug\net7.0-windows\Apitron.PDF.Controls.dll
 D:\ICLab\IPA\Winform\App\bin\Debug\net7.0-windows\Apitron.PDF.Rasterizer.dll
+D:\ICLab\IPA\Winform\App\obj\Debug\net7.0-windows\App.sourcelink.json

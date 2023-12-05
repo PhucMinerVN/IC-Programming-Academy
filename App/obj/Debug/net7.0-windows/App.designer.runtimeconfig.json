@@ -13,10 +13,10 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\QUAN\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\QUAN\\.nuget\\packages",
-      "C:\\Users\\QUAN\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+      "C:\\Users\\QUAN\\.nuget\\packages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
