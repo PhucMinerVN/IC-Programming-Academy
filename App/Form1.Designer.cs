@@ -38,6 +38,7 @@ namespace App
             flowLayoutPanel2 = new FlowLayoutPanel();
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             pdfViewer1 = new Apitron.PDF.Controls.PDFViewer();
             flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -53,6 +54,7 @@ namespace App
             flowLayoutPanel2.BackColor = Color.FromArgb(21, 23, 31);
             flowLayoutPanel2.Controls.Add(button1);
             flowLayoutPanel2.Controls.Add(button2);
+            flowLayoutPanel2.Controls.Add(button3);
             resources.ApplyResources(flowLayoutPanel2, "flowLayoutPanel2");
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Paint += flowLayoutPanel2_Paint;
@@ -69,11 +71,19 @@ namespace App
             resources.ApplyResources(button2, "button2");
             button2.ForeColor = SystemColors.ButtonFace;
             button2.Name = "button2";
+            button1.Click += button2_Click;
             button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            resources.ApplyResources(button3, "button3");
+            button3.ForeColor = SystemColors.ButtonFace;
+            button3.Name = "button3";
+            button3.UseVisualStyleBackColor = false;
             // 
             // pdfViewer1
             // 
-            resources.ApplyResources(pdfViewer1, "pdfViewer1");
+             resources.ApplyResources(pdfViewer1, "pdfViewer1");
             FileStream fs = new FileStream("Documents/Python.pdf", FileMode.Open);
             Document document = new Document(fs);
             pdfViewer1.Dock = DockStyle.Bottom;
@@ -83,6 +93,8 @@ namespace App
             pdfViewer1.Name = "pdfViewer1";
             pdfViewer1.RenderingQuality = Apitron.PDF.Controls.RenderingQuality.High;
             pdfViewer1.SearchHighlightColor = Color.FromArgb(128, 255, 255, 0);
+            
+           
             // 
             // Form1
             // 
@@ -104,6 +116,7 @@ namespace App
         private FlowLayoutPanel flowLayoutPanel2;
         private Button button1;
         private Button button2;
+        private Button button3;
         private Apitron.PDF.Controls.PDFViewer pdfViewer1;
     }
 }
