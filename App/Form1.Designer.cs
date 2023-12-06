@@ -37,10 +37,6 @@ namespace App
             flowLayoutPanel1 = new FlowLayoutPanel();
             flowLayoutPanel3 = new FlowLayoutPanel();
             bai1 = new Button();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            button1 = new Button();
-            button2 = new Button();
-            pdfViewer1 = new Apitron.PDF.Controls.PDFViewer();
             bai2 = new Button();
             bai3 = new Button();
             bai4 = new Button();
@@ -52,6 +48,10 @@ namespace App
             bai10 = new Button();
             bai11 = new Button();
             bai12 = new Button();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            button1 = new Button();
+            button2 = new Button();
+            pdfViewer1 = new Apitron.PDF.Controls.PDFViewer();
             flowLayoutPanel1.SuspendLayout();
             flowLayoutPanel3.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
@@ -81,13 +81,101 @@ namespace App
             resources.ApplyResources(flowLayoutPanel3, "flowLayoutPanel3");
             flowLayoutPanel3.Name = "flowLayoutPanel3";
             // 
-            // button3
+            // bai1
             // 
-            resources.ApplyResources(bai1, "button3");
+            resources.ApplyResources(bai1, "bai1");
             bai1.ForeColor = SystemColors.ButtonFace;
-            bai1.Name = "button3";
+            bai1.Name = "bai1";
             bai1.UseVisualStyleBackColor = false;
             bai1.Click += bai1f;
+            // 
+            // bai2
+            // 
+            resources.ApplyResources(bai2, "bai2");
+            bai2.ForeColor = SystemColors.ButtonFace;
+            bai2.Name = "bai2";
+            bai2.UseVisualStyleBackColor = false;
+            bai2.Click += bai2f;
+            // 
+            // bai3
+            // 
+            resources.ApplyResources(bai3, "bai3");
+            bai3.ForeColor = SystemColors.ButtonFace;
+            bai3.Name = "bai3";
+            bai3.UseVisualStyleBackColor = false;
+            bai3.Click += bai3f;
+            // 
+            // bai4
+            // 
+            resources.ApplyResources(bai4, "bai4");
+            bai4.ForeColor = SystemColors.ButtonFace;
+            bai4.Name = "bai4";
+            bai4.UseVisualStyleBackColor = false;
+            bai4.Click += bai4f;
+            // 
+            // bai5
+            // 
+            resources.ApplyResources(bai5, "bai5");
+            bai5.ForeColor = SystemColors.ButtonFace;
+            bai5.Name = "bai5";
+            bai5.UseVisualStyleBackColor = false;
+            bai5.Click += bai5f;
+            // 
+            // bai6
+            // 
+            resources.ApplyResources(bai6, "bai6");
+            bai6.ForeColor = SystemColors.ButtonFace;
+            bai6.Name = "bai6";
+            bai6.UseVisualStyleBackColor = false;
+            bai6.Click += bai6f;
+            // 
+            // bai7
+            // 
+            resources.ApplyResources(bai7, "bai7");
+            bai7.ForeColor = SystemColors.ButtonFace;
+            bai7.Name = "bai7";
+            bai7.UseVisualStyleBackColor = false;
+            bai7.Click += bai7f;
+            // 
+            // bai8
+            // 
+            resources.ApplyResources(bai8, "bai8");
+            bai8.ForeColor = SystemColors.ButtonFace;
+            bai8.Name = "bai8";
+            bai8.UseVisualStyleBackColor = false;
+            bai8.Click += bai8f;
+            // 
+            // bai9
+            // 
+            resources.ApplyResources(bai9, "bai9");
+            bai9.ForeColor = SystemColors.ButtonFace;
+            bai9.Name = "bai9";
+            bai9.UseVisualStyleBackColor = false;
+            bai9.Click += bai9f;
+            // 
+            // bai10
+            // 
+            resources.ApplyResources(bai10, "bai10");
+            bai10.ForeColor = SystemColors.ButtonFace;
+            bai10.Name = "bai10";
+            bai10.UseVisualStyleBackColor = false;
+            bai10.Click += bai10f;
+            // 
+            // bai11
+            // 
+            resources.ApplyResources(bai11, "bai11");
+            bai11.ForeColor = SystemColors.ButtonFace;
+            bai11.Name = "bai11";
+            bai11.UseVisualStyleBackColor = false;
+            bai11.Click += bai11f;
+            // 
+            // bai12
+            // 
+            resources.ApplyResources(bai12, "bai12");
+            bai12.ForeColor = SystemColors.ButtonFace;
+            bai12.Name = "bai12";
+            bai12.UseVisualStyleBackColor = false;
+            bai12.Click += bai12f;
             // 
             // flowLayoutPanel2
             // 
@@ -120,113 +208,8 @@ namespace App
             pdfViewer1.Document = null;
             pdfViewer1.EnableSearch = true;
             pdfViewer1.Name = "pdfViewer1";
-            pdfViewer1.Dock=DockStyle.Bottom;
-            pdfViewer1.Anchor=AnchorStyles.Top|AnchorStyles.Bottom|AnchorStyles.Left|AnchorStyles.Right;
             pdfViewer1.RenderingQuality = Apitron.PDF.Controls.RenderingQuality.High;
             pdfViewer1.SearchHighlightColor = Color.FromArgb(128, 255, 255, 0);
-            
-            // 
-            // button4
-            // 
-            resources.ApplyResources(bai2, "button4");
-            bai2.ForeColor = SystemColors.ButtonFace;
-            bai2.Name = "button4";
-            bai2.UseVisualStyleBackColor = false;
-            bai2.Click += bai2f;
-            // 
-            // button5
-            // 
-            resources.ApplyResources(bai3, "button5");
-            bai3.ForeColor = SystemColors.ButtonFace;
-            bai3.Name = "button5";
-            bai3.UseVisualStyleBackColor = false;
-            bai3.Click += bai3f;
-            // 
-            // button6
-            // 
-            resources.ApplyResources(bai4, "button6");
-            bai4.ForeColor = SystemColors.ButtonFace;
-            bai4.Name = "button6";
-            bai4.UseVisualStyleBackColor = false;
-            bai4.Click += bai4f;
-            // 
-            // button7
-            // 
-            resources.ApplyResources(bai5, "button7");
-            bai5.ForeColor = SystemColors.ButtonFace;
-            bai5.Name = "button7";
-            bai5.UseVisualStyleBackColor = false;
-            bai5.Click += bai5f;
-            // 
-            // button8
-            // 
-            resources.ApplyResources(bai6, "button8");
-            bai6.ForeColor = SystemColors.ButtonFace;
-            bai6.Name = "button8";
-            bai6.UseVisualStyleBackColor = false;
-            bai6.Click += bai6f;
-            // 
-            // button9
-            // 
-            resources.ApplyResources(bai7, "button9");
-            bai7.ForeColor = SystemColors.ButtonFace;
-            bai7.Name = "button9";
-            bai7.UseVisualStyleBackColor = false;
-            bai7.Click += bai7f;
-            // 
-            // button10
-            // 
-            resources.ApplyResources(bai8, "button10");
-            bai8.ForeColor = SystemColors.ButtonFace;
-            bai8.Name = "button10";
-            bai8.UseVisualStyleBackColor = false;
-            bai8.Click += bai8f;
-            // 
-            // button11
-            // 
-            resources.ApplyResources(bai9, "button11");
-            bai9.ForeColor = SystemColors.ButtonFace;
-            bai9.Name = "button11";
-            bai9.UseVisualStyleBackColor = false;
-            bai9.Click += bai9f;
-            // 
-            // button12
-            // 
-            resources.ApplyResources(bai10, "button12");
-            bai10.ForeColor = SystemColors.ButtonFace;
-            bai10.Name = "button12";
-            bai10.UseVisualStyleBackColor = false;
-            bai10.Click += bai10f;
-            // 
-            // button13
-            // 
-            resources.ApplyResources(bai11, "button13");
-            bai11.ForeColor = SystemColors.ButtonFace;
-            bai11.Name = "button13";
-            bai11.UseVisualStyleBackColor = false;
-            bai11.Click += bai11f;
-            // 
-            // button14
-            // 
-            resources.ApplyResources(bai12, "button14");
-            bai12.ForeColor = SystemColors.ButtonFace;
-            bai12.Name = "button14";
-            bai12.UseVisualStyleBackColor = false;
-            bai12.Click += bai12f;
-
-            bai1.Visible=false;
-            bai2.Visible=false;
-            bai3.Visible=false;
-            bai4.Visible=false;
-            bai5.Visible=false;
-            bai6.Visible=false;
-            bai7.Visible=false;
-            bai8.Visible=false;
-            bai9.Visible=false;
-            bai10.Visible=false;
-            bai11.Visible=false;
-            bai12.Visible=false;
-
             // 
             // Form1
             // 

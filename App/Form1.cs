@@ -32,143 +32,171 @@ namespace App
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream("Documents/cpp/bai1.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            current_doc="cpp";
-            bai1.Visible=true;
-            bai2.Visible=true;
-            bai3.Visible=true;
-            bai4.Visible=true;
-            bai5.Visible=true;
-            bai6.Visible=true;
-            bai7.Visible=true;
-            bai8.Visible=true;
-            bai9.Visible=false;
-            bai10.Visible=false;
-            bai11.Visible=false;
-            bai12.Visible=false;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream("Documents/cpp/bai1.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+                current_doc = "cpp";
+                bai1.Visible = true;
+                bai2.Visible = true;
+                bai3.Visible = true;
+                bai4.Visible = true;
+                bai5.Visible = true;
+                bai6.Visible = true;
+                bai7.Visible = true;
+                bai8.Visible = true;
+                bai9.Visible = false;
+                bai10.Visible = false;
+                bai11.Visible = false;
+                bai12.Visible = false;
+            }
+            catch (Exception) { }
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream("Documents/Python/bai1.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            current_doc="Python";
-            bai1.Visible=true;
-            bai2.Visible=true;
-            bai3.Visible=true;
-            bai4.Visible=true;
-            bai5.Visible=true;
-            bai6.Visible=true;
-            bai7.Visible=true;
-            bai8.Visible=true;
-            bai9.Visible=true;
-            bai10.Visible=true;
-            bai11.Visible=true;
-            bai12.Visible=true;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream("Documents/Python/bai1.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+                current_doc = "Python";
+                bai1.Visible = true;
+                bai2.Visible = true;
+                bai3.Visible = true;
+                bai4.Visible = true;
+                bai5.Visible = true;
+                bai6.Visible = true;
+                bai7.Visible = true;
+                bai8.Visible = true;
+                bai9.Visible = true;
+                bai10.Visible = true;
+                bai11.Visible = true;
+                bai12.Visible = true;
+            }
+            catch (Exception) { }
         }
 
         private void bai1f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai1.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai1.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
 
         }
         private void bai2f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai2.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai2.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai3f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai3.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai3.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai4f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai4.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai4.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai5f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai5.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai5.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai6f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai6.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai6.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai7f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai7.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai7.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai8f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai8.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai8.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai9f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai9.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai9.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai10f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai10.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai10.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai11f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai11.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai11.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
         private void bai12f(object sender, EventArgs e)
         {
-            try{
-            FileStream fs = new FileStream($"Documents/{current_doc}/bai12.pdf", FileMode.Open);
-            Document document = new Document(fs);
-            pdfViewer1.Document = document;
-            }catch(Exception){}
+            try
+            {
+                FileStream fs = new FileStream($"Documents/{current_doc}/bai12.pdf", FileMode.Open);
+                Document document = new Document(fs);
+                pdfViewer1.Document = document;
+            }
+            catch (Exception) { }
         }
     }
 }
