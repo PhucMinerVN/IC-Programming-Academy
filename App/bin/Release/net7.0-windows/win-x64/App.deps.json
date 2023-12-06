@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/win-x64": {
+      "App/1.0.0": {
+        "dependencies": {
+          "Apitron.PDF.Controls": "1.0.173",
+          "PdfiumViewer": "2.13.0"
+        },
+        "runtime": {
+          "App.dll": {}
+        }
+      },
+      "Apitron.PDF.Controls/1.0.173": {
+        "runtime": {
+          "lib/net461/Apitron.PDF.Controls.dll": {
+            "assemblyVersion": "1.0.173.0",
+            "fileVersion": "1.0.173.0"
+          },
+          "lib/net461/Apitron.PDF.Rasterizer.dll": {
+            "assemblyVersion": "3.0.173.0",
+            "fileVersion": "3.0.173.0"
+          }
+        }
+      },
+      "PdfiumViewer/2.13.0": {
+        "runtime": {
+          "lib/net20/PdfiumViewer.dll": {
+            "assemblyVersion": "2.13.0.0",
+            "fileVersion": "2.13.0.0"
+          }
+        },
+        "resources": {
+          "lib/net20/nl/PdfiumViewer.resources.dll": {
+            "locale": "nl"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apitron.PDF.Controls/1.0.173": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hrP1t40TOoJFIwJGuZdFH+L+LM2M4/5otn6vs8NEeABng4uSpIqDnhbc+mKyFKaMJQwuN4zI5p072fVMrgRosA==",
+      "path": "apitron.pdf.controls/1.0.173",
+      "hashPath": "apitron.pdf.controls.1.0.173.nupkg.sha512"
+    },
+    "PdfiumViewer/2.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nw4owBmJzDVXoMRjCnqPbET07CPOawwhcNjt+PyRaSxONN9bsFF+cm9kcMsDLEAEaxsiDJo5jls8bCQjvjidkA==",
+      "path": "pdfiumviewer/2.13.0",
+      "hashPath": "pdfiumviewer.2.13.0.nupkg.sha512"
+    }
+  }
+}

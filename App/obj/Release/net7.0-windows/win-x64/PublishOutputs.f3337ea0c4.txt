@@ -1,0 +1,9 @@
+D:\PublishApp\App.exe
+D:\PublishApp\App.dll
+D:\PublishApp\App.deps.json
+D:\PublishApp\App.runtimeconfig.json
+D:\PublishApp\App.pdb
+D:\PublishApp\Apitron.PDF.Controls.dll
+D:\PublishApp\Apitron.PDF.Rasterizer.dll
+D:\PublishApp\PdfiumViewer.dll
+D:\PublishApp\nl\PdfiumViewer.resources.dll

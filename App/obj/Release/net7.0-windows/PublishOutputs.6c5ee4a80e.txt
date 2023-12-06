@@ -1,0 +1,9 @@
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\App.exe
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\App.dll
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\App.deps.json
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\App.runtimeconfig.json
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\App.pdb
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\Apitron.PDF.Controls.dll
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\Apitron.PDF.Rasterizer.dll
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\PdfiumViewer.dll
+D:\IC-Programming-Academy\App\bin\Release\net7.0-windows\publish\nl\PdfiumViewer.resources.dll
