@@ -45,7 +45,7 @@ namespace App
             bai6.Visible=true;
             bai7.Visible=true;
             bai8.Visible=true;
-            bai9.Visible=true;
+            bai9.Visible=false;
             bai10.Visible=false;
             bai11.Visible=false;
             bai12.Visible=false;
@@ -80,6 +80,7 @@ namespace App
             Document document = new Document(fs);
             pdfViewer1.Document = document;
             }catch(Exception){}
+
         }
         private void bai2f(object sender, EventArgs e)
         {
