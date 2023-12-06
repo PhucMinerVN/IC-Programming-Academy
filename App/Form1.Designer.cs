@@ -120,6 +120,8 @@ namespace App
             pdfViewer1.Document = null;
             pdfViewer1.EnableSearch = true;
             pdfViewer1.Name = "pdfViewer1";
+            pdfViewer1.Dock=DockStyle.Bottom;
+            pdfViewer1.Anchor=AnchorStyles.Top|AnchorStyles.Bottom|AnchorStyles.Left|AnchorStyles.Right;
             pdfViewer1.RenderingQuality = Apitron.PDF.Controls.RenderingQuality.High;
             pdfViewer1.SearchHighlightColor = Color.FromArgb(128, 255, 255, 0);
             // 
