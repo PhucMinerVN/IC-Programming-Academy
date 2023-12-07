@@ -2,4 +2,4 @@
 IC-Programming-Academy by ICLab Studio
 
 # Releases
-Install the <[https://github](latest)https://github.com/PhucMinerVN/IC-Programming-Academy/releases/>[latest] release of IPA !
+Latest release : IPA 1.0
